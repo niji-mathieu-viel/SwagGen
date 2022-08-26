@@ -165,7 +165,6 @@ To add support for a specific asynchronous library, just add an extension on `AP
 - **PropertyTypes**
 - **Puppi**
 - **SingleAnimal**
-- **SingleAnimalWithObjectType**
 - **SomeNullableObject**
 - **User**
 - **UserReference**

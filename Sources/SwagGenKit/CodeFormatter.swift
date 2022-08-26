@@ -213,7 +213,6 @@ public class CodeFormatter {
                     for (key, value) in discriminatorMapping {
                         // TODO: could reference another spec
                         let reference = Reference<Schema>(value)
-                        mapping.removeValue(forKey: reference.name)
                         mapping[key] = getReferenceContext(reference)
                     }
                 }
